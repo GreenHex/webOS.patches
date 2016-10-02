@@ -1,0 +1,18 @@
+Name: concatenated.js
+Version: 2.1.0-1
+Author: The Resetter
+Description: Add "India" to Regional Settings -> Phone Numbers
+
+--- .orig/usr/palm/frameworks/globalization/submission/31/concatenated.js
++++ /usr/palm/frameworks/globalization/submission/31/concatenated.js
+@@ -4548,7 +4548,8 @@
+ 		{countryCode: "cn", countryName: "China"},
+ 		{countryCode: "au", countryName: "Australia"},
+ 		{countryCode: "sg", countryName: "Singapore"},
+-		{countryCode: "nz", countryName: "New Zealand"}
++		{countryCode: "nz", countryName: "New Zealand"},
++		{countryCode: "in", countryName: "India"}
+ 	];
+ };
+ 
+\ No newline at end of file

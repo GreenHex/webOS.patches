@@ -1,0 +1,22 @@
+Name: DialingPrefix.js
+Version: 2.1.0-1
+Author: The Resetter
+Description: Add 3, 8 and 10 Digits to Dialing Shortcuts
+
+--- .orig/usr/palm/applications/com.palm.app.phone/app/models/DialingPrefix.js
++++ /usr/palm/applications/com.palm.app.phone/app/models/DialingPrefix.js
+@@ -1,4 +1,4 @@
+-//luna-send -n 1 palm://com.palm.systemservice/getPreferences '{"keys":["3DigitNumber", "4DigitNumber", "5DigitNumber", "6DigitNumber", "7DigitNumber"]}'
++//luna-send -n 1 palm://com.palm.systemservice/getPreferences '{"keys":["3DigitNumber", "4DigitNumber", "5DigitNumber", "6DigitNumber", "7DigitNumber", "8DigitNumber", "10DigitNumber"]}'
+ DialingPrefix = function() {
+ 	var keys = ["3DigitNumber", "4DigitNumber", "5DigitNumber", "6DigitNumber", "7DigitNumber"];
+ 	
+@@ -1,6 +1,6 @@
+ //luna-send -n 1 palm://com.palm.systemservice/getPreferences '{"keys":["3DigitNumber", "4DigitNumber", "5DigitNumber", "6DigitNumber", "7DigitNumber"]}'
+ DialingPrefix = function() {
+-	var keys = ["3DigitNumber", "4DigitNumber", "5DigitNumber", "6DigitNumber", "7DigitNumber"];
++	var keys = ["3DigitNumber", "4DigitNumber", "5DigitNumber", "6DigitNumber", "7DigitNumber", "8DigitNumber", "10DigitNumber"];
+ 	
+ 	this.prefixes = {};
+ 	
+\ No newline at end of file

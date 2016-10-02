@@ -1,0 +1,17 @@
+Name: format_phonenumber.js
+Version: 2.1.0-1
+Author: The Resetter
+Description: Add "India" to Regional Settings -> Phone Numbers
+
+--- .orig/usr/palm/frameworks/globalization/submission/31/javascript/format_phonenumber.js
++++ /usr/palm/frameworks/globalization/submission/31/javascript/format_phonenumber.js
+@@ -64,7 +64,8 @@
+ 		{countryCode: "cn", countryName: "China"},
+ 		{countryCode: "au", countryName: "Australia"},
+ 		{countryCode: "sg", countryName: "Singapore"},
+-		{countryCode: "nz", countryName: "New Zealand"}
++		{countryCode: "nz", countryName: "New Zealand"},
++		{countryCode: "in", countryName: "India"}
+ 	];
+ };
+ 

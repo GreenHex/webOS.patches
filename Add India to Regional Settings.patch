@@ -1,0 +1,14 @@
+Name: Add India to "Regional Settings"
+Version: 0.0.1
+Author: GreenHex
+Description: Add India to "Phone Numbers" in "Regional Settings". Don't know what this does, but it makes me happy to see India in the list.
+
+--- .orig/usr/palm/frameworks/globalization/submission/31globalization.js
++++ /usr/palm/frameworks/globalization/submission/31globalization.js
+
+
+--- .orig//usr/palm/frameworks/mojo/builtins/palmglobalizationVersion1_0.js
++++ /usr/palm/frameworks/mojo/builtins/palmglobalizationVersion1_0.js
+
+--- .orig/usr/palm/frameworks/globalization/submission/31/concatenated.js
++++ /usr/palm/frameworks/globalization/submission/31/concatenated.js
